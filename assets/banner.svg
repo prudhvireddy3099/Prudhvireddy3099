@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Prudhvi Reddy, Senior AI Software Engineer">
+  <defs>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#131a4f"/>
+      <stop offset=".3" stop-color="#3a2a9c"/>
+      <stop offset=".55" stop-color="#7b3594"/>
+      <stop offset=".8" stop-color="#d4572a"/>
+      <stop offset="1" stop-color="#f7882f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6c47ff"/>
+      <stop offset=".5" stop-color="#1fa2ff"/>
+      <stop offset="1" stop-color="#ff4fa3"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#7c5cff" stop-opacity=".45"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#22c3ff" stop-opacity=".4"/><stop offset="1" stop-color="#22c3ff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowC" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ff5fb0" stop-opacity=".35"/><stop offset="1" stop-color="#ff5fb0" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1280" height="320" rx="24" fill="#f6f4ef"/>
+  <ellipse cx="960" cy="120" rx="260" ry="190" fill="url(#glowA)"/>
+  <ellipse cx="1110" cy="220" rx="230" ry="160" fill="url(#glowB)"/>
+  <ellipse cx="860" cy="250" rx="200" ry="140" fill="url(#glowC)"/>
+
+  <!-- agent graph motif -->
+  <g stroke="#3a2a9c" stroke-opacity=".28" stroke-width="1.4" fill="none">
+    <path d="M880 92 L985 150 L1090 96 L1180 168 L1088 238 L985 150 L905 230 L880 92"/>
+    <path d="M985 150 L1088 238 M1090 96 L1088 238"/>
+  </g>
+  <g>
+    <circle cx="880" cy="92" r="7" fill="#6c47ff"/>
+    <circle cx="985" cy="150" r="11" fill="#3a2a9c"/>
+    <circle cx="1090" cy="96" r="7" fill="#1fa2ff"/>
+    <circle cx="1180" cy="168" r="7" fill="#ff4fa3"/>
+    <circle cx="1088" cy="238" r="7" fill="#f7882f"/>
+    <circle cx="905" cy="230" r="7" fill="#7b3594"/>
+  </g>
+
+  <text x="64" y="74" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" letter-spacing="3" fill="#5b3df5">HELLO, I’M</text>
+  <text x="60" y="160" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-weight="900" font-size="96" letter-spacing="-3" fill="url(#name)">PRUDHVI</text>
+  <text x="60" y="248" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-weight="900" font-size="96" letter-spacing="-3" fill="#0b0b0d">REDDY</text>
+  <rect x="64" y="272" width="64" height="4" rx="2" fill="url(#accent)"/>
+  <text x="144" y="279" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" letter-spacing="2" fill="#3b3a37">SENIOR AI SOFTWARE ENGINEER · AGENTS · LLMs · ML</text>
+</svg>
